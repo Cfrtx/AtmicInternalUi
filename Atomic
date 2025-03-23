@@ -1,4 +1,6 @@
 local ScreenGui = Instance.new("ScreenGui")
+if ScreenGui then
+print("Internal Ui Loaded")
 local Frame = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
 local UICorner = Instance.new("UICorner")
