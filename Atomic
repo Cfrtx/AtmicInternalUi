@@ -19,7 +19,7 @@ local CloseFrame = Instance.new("Frame")
 local CloseButton = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local Massagetext = Instance.new("TextLabel")
-
+ScreenGui.ResetOnSpawn = False
 --Properties:
 local uistroke = Instance.new("UIStroke")
 uistroke.Parent = Frame
