@@ -1,5 +1,6 @@
-
+Print("Atomic Internal Ui Loaded")
 local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Enabled = False
 local Frame = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
 local UICorner = Instance.new("UICorner")
