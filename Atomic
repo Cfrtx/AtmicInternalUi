@@ -1,6 +1,5 @@
 Print("Atomic Internal Ui Loaded")
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Enabled = False
 local Frame = Instance.new("Frame")
 local UIGradient = Instance.new("UIGradient")
 local UICorner = Instance.new("UICorner")
@@ -21,6 +20,7 @@ local CloseButton = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local Massagetext = Instance.new("TextLabel")
 ScreenGui.ResetOnSpawn = False
+ScreenGui.Enabled = False
 --Properties:
 local uistroke = Instance.new("UIStroke")
 uistroke.Parent = Frame
